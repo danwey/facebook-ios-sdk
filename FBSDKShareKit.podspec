@@ -31,6 +31,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.ios.source_files = 'FBSDKShareKit/FBSDKShareKit/**/*.{h,m}'
+  s.ios.public_header_files = 'FBSDKShareKit/FBSDKShareKit/*.{h}'
   s.ios.exclude_files = 'FBSDKShareKit/FBSDKShareKit/FBSDKDeviceShareButton.{h,m}',
                         'FBSDKShareKit/FBSDKShareKit/FBSDKDeviceShareViewController.{h,m}'
   s.tvos.source_files = 'FBSDKShareKit/FBSDKShareKit/FBSDKDeviceShareButton.{h,m}',
